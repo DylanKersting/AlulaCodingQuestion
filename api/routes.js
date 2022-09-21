@@ -1,6 +1,7 @@
 import Router from 'koa-router'
-const router = new Router()
 import { asteroids } from './nasa.js'
+
+const router = new Router()
 
 router.post('/asteroids', asteroids)
 
